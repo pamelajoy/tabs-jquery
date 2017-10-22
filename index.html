@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Tabs</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="tabs.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css?v=1.0">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<h1>My Important Stuff</h1>
+<div data-role="tab-container">
+  <div class="tabs">
+    <h1 class="heading-1 tab">
+      <a data-role="tab" class="active" href="#Upcoming">Upcoming Shows</a>
+    </h1>
+    <h1 class="heading-1 tab"> 
+      <a data-role="tab" href="#Previous">Previous Shows</a>
+    </h1>
+  </div>
+
+  <div data-role="tabcontent" id="Upcoming" class="tabcontent active">
+    <h2>Upcoming Shows</h2>
+    <p>These are upcoming shows.</p>
+  </div>
+
+  <div data-role="tabcontent" id="Previous" class="tabcontent">
+    <h2>Previous Shows</h2>
+    <p>These are previous shows.</p> 
+  </div>
+</div>
+
+<h1>My other stuff</h1>
+<div data-role="tab-container">
+  <div class="tabs">
+    <h1 class="heading-1 tab">
+      <a data-role="tab" class="active" href="#Upcoming">Upcoming Shows</a>
+    </h1>
+    <h1 class="heading-1 tab"> 
+      <a data-role="tab" href="#Previous">Previous Shows</a>
+    </h1>
+  </div>
+
+  <div data-role="tabcontent" id="Upcoming" class="tabcontent active">
+    <h2>Upcoming Shows</h2>
+    <p>These are upcoming shows.</p>
+  </div>
+
+  <div data-role="tabcontent" id="Previous" class="tabcontent">
+    <h2>Previous Shows</h2>
+    <p>These are previous shows.</p> 
+  </div>
+</div>
+
+</body>
+</html>
+
